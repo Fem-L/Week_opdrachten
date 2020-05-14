@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;  
+}
+
+.personalia h1{
+    margin: 0;
+    font-size: 1.2rem;
+}
+.subtitle {
+    margin: 0;
+    color: grey;
+}
+
+img {
+    width: 55px;
+    height: 55px;
+    margin: 0;
+    float: right;
+}
+
+.container {  
+    display: grid;  
+    grid-template-columns: repeat(2, 380px);
+    grid-template-rows: 210px;
+    }
+
+.items {
+    display: grid;
+    grid-template-rows: 4rem;
+    width: 21rem;
+    border: solid lightgrey 1px;
+    border-radius: 6px;
+    padding: 1rem;
+    box-shadow: 1px 1px 1px 1px rgba(199, 196, 196, 0.2) ;
+    }
+
+.button_row{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+    border-top: solid 1px lightgrey;
+}
+.button {
+    float: left;    
+    padding: 0.5rem 3.5rem; 
+    font-size: 1rem; 
+    }
+.approve_btn {    
+    color: rgb(72, 226, 93);
+    border: solid 1px rgb(72, 226, 93);
+    background-color: white;
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+}   
+.decline_btn {
+    color: red;
+    border:solid 1px red;
+    background-color: white;
+    border-radius: 0 4px 4px 0;
+}
